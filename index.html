@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WanderNote — Travel Journal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="topbar">
+      <div class="logo">WanderNote</div>
+      <nav class="links">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Destinations</a>
+        <a class="nav-link" href="#">Tips</a>
+        <a class="nav-link" href="#">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <div id="hero">
+        <section class="hero-inner">
+          <!-- Rearrange H1 as first element in section -->
+          <h1 class="headline">Stories from the road</h1>
+          <p class="sub">Notes, photos, and pocket itineraries.</p>
+
+          <img
+            class="hero-img"
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop"
+            alt="Traveler looking down a road surrounded by arid mountains"
+          />
+        </section>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div id="content">
+        <div class="left-col">
+          <article class="post card">
+            <h2 class="post-title">Kyoto in 48 Hours</h2>
+            <p class="post-meta">May 2025 · Asia · Budget</p>
+            <!-- Place image in figure, and caption as figcaption element -->
+            <figure>
+              <img
+                class="post-img"
+                src="https://picsum.photos/id/1016/800/500"
+                alt="Mountain image"
+              />
+              <figcaption class="post-body">
+                Temple hopping, alley ramen, and morning markets.
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="post card">
+            <header class="post-header">
+              <h2 class="post-title">Lisbon Hill Walk</h2>
+            </header>
+            <p class="post-meta">April 2025 · Europe · Walkable</p>
+            <figure>
+              <img
+                class="post-img"
+                src="https://picsum.photos/id/1035/800/500"
+                alt="View of person looking at waterfall"
+              />
+              <figcaption class="post-body">
+                Tiles, trams, and sunset at Miradouro.
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+
+        <aside class="right-col">
+          <div class="panel">
+            <h3 class="panel-title">Popular Tags</h3>
+            <div class="tag-list">
+              <a href="#" class="tag">itinerary</a>
+              <a href="#" class="tag">streetfood</a>
+              <a href="#" class="tag">budget</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer id="bottombar">
+      <div class="copy"><small>©</small> 2025 WanderNote</div>
+    </footer>
+  </body>
+</html>
