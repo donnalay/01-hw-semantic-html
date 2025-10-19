@@ -34,15 +34,7 @@ while **preserving the visual design** (CSS already targets ids/classes so your 
 
 ## Questions
 
-- When to use a section vs. a div?
-  - A section defines a self-contained block of content and should include a header, whereas a div has no semantic meaning and is more commonly used for layout and visual organization.
-- Should <figcaption> text be wrapped in a <p> tag?
-  - No, it should not be wrapped in a p tag.
-
----
-
-### 🌐 Note on Images
-
-This project uses external images from Unsplash and Picsum.
-You'll need an active internet connection for them to appear.
-If you prefer to work offline, replace the image URLs with local files in an `images/` folder.
+- When to use a `section` vs. a `div`?
+  - A section defines a self-contained block of content and should include a `<header>`, whereas a `<div>` has no semantic meaning and is more commonly used for layout and visual organization.
+- Should `<figcaption>` text be wrapped in a `<p>` tag?
+  - No, it should not be wrapped in a `<p>` tag.
